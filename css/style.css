@@ -1,0 +1,85 @@
+
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+.grid h1{
+    font-family: sans-serif;
+    background-color: tomato;
+    font-size: 60px;
+    text-align: center;
+    color:#fff;
+    padding: 2px 0px;
+   /* border-radius: 50px*/
+}
+
+.logs {
+    display: flex;
+    justify-content: flex-end;
+    background-color: tomato;
+    align-content: space-between;
+    
+}
+ p{
+    color: white;
+}
+ .occitanie img{
+    width: 40px;
+}
+.logo img {
+    width: 40px;
+}
+
+.grid #question {
+    font-size: 30px;
+    font-family: sans-serif;
+    color:gray;
+
+}
+
+.buttons {
+    display: grid;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    font-size: 27px;
+   background-color: tomato;
+   width: 250px;
+   color:#fff;
+   /*border-radius: 50px;*/
+   margin:10px 40px 10px 0px;
+   padding:10px 10px;
+}
+
+#score {
+    color:tomato;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+#progress {
+color: #2b2b2b;
+font-size: 18px;
+
+}
+
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+  
+cursor: pointer;
+background-color: rgb(233, 52, 20);
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{
+
+outline: 0;
+}
+
